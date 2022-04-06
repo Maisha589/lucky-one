@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "Image": "../../Fish-img/butterfly-fish.jpg",
+        "name": "Butterfly Fish",
+        "price": 600
+    },
+    {
+        "id": 2,
+        "Image": "../../Fish-img/clown-fish.jpg",
+        "name": "Clown Fish",
+        "price": 400
+    },
+    {
+        "id": 3,
+        "Image": "../../Fish-img/colorful-betta.jpg",
+        "name": "Colorful Betta Fish",
+        "price": 800
+    },
+    {
+        "id": 4,
+        "Image": "../../Fish-img/golden-fish-black.jpg",
+        "name": "Golden Black Fish",
+        "price": 500
+    },
+    {
+        "id": 5,
+        "Image": "../../Fish-img/striped-fish.jpg",
+        "name": "Striped Fish",
+        "price": 700
+    },
+    {
+        "id": 6,
+        "Image": "../../Fish-img/red-beauty.jpg",
+        "name": "Red beauty Fish",
+        "price": 400
+    },
+    {
+        "id": 7,
+        "Image": "../../Fish-img/pink-fish.jpg",
+        "name": "Pink Fish",
+        "price": 300
+    },
+    {
+        "id": 8,
+        "Image": "../../Fish-img/red-betta.jpg",
+        "name": "REd Betta Fish",
+        "price": 800
+    },
+    {
+        "id": 9,
+        "Image": "../../Fish-img/salmon-colored-fish.jpg",
+        "name": "Orange Fish",
+        "price": 500
+    },
+    {
+        "id": 10,
+        "Image": "../../Fish-img/tiger-fish.jpg",
+        "name": "Tiger Fish",
+        "price": 900
+    },
+    {
+        "id": 11,
+        "Image": "../../Fish-img/tropical-blue-fish.jpg",
+        "name": "Tropical Blue Fish",
+        "price": 400
+    },
+    {
+        "id": 12,
+        "Image": "../../Fish-img/yellow-cichlidae-fish.jpg",
+        "name": "Yellow Fish",
+        "price": 600
+    }
+]
