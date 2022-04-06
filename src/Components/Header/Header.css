@@ -1,0 +1,11 @@
+.header {
+    height: 100px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(0, 0, 80, 0.856);
+}
+
+.header h1 {
+    margin-top: 0;
+    padding: 10px;
+}
