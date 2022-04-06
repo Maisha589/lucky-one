@@ -17,12 +17,11 @@ const Shop = () => {
     return (
         <div className='shop-container'>
             <div className="fishes-container">
-                <h2>This is for fish</h2>
                 {
                     fishes.map(fish => 
                         <Fish
                         key={fish.id}
-                        fish = {fish}
+                        fish={fish}
                         ></Fish>)
                 }
             </div>

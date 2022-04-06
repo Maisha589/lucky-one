@@ -1,0 +1,32 @@
+.fish {
+    width: 320px;
+    height: 450px;
+    margin: 30px 30px;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 124, 0.863);
+    border-radius: 5px;
+    box-shadow: 5px;
+    background-color: rgba(211, 211, 211, 0.863);
+}
+
+.fish img {
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+.fish-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+}
+
+.fish-price {
+    color: darkblue;
+}

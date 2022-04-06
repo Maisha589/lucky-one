@@ -2,12 +2,14 @@ import React from 'react';
 import "./Fish.css";
 
 const Fish = (props) => {
-    const {name, Image, price, id} = props.fish;
+    console.log(props.fish.img);
+    const {img, name, price} = props.fish;
     return (
-        <div>
-            <h2>Name: {name}</h2>
-            <p>Price: ${price}</p>
-            <p><small>It has id: {id}</small></p>
+        <div className='fish'>
+            <img src={img} alt="" />
+            <h2 className='fish-name'>{name}</h2>
+            <p className='price'><b>Price: <span className='fish-price'>${price}</span></b></p>
+            <button>Add to cart</button>
         </div>
     );
 };
