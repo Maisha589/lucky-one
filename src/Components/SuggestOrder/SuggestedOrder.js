@@ -3,16 +3,15 @@ import React from 'react';
 const SuggestedOrder = ({cart, setCart}) => {
 
     const suggestedFish = (cart) => {
-        console.log();
+        console.log(cart);
         
           if(cart.length > 0){
            const newFish = Math.floor(Math.random()*cart.length);
-            console.log(newFish);
         setCart([cart[newFish]]);
           }
     }
 
-    const remove = (cart) => {
+    const remove = () => {
         setCart([]);
     }
 
