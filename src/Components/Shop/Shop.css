@@ -55,3 +55,9 @@
     }
 
 }
+
+@media screen and (max-width: 1024px) {
+    .fishes-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
