@@ -1,5 +1,5 @@
 ## Site
-My live site [Fish World]("https://fish-world.netlify.app/").
+My live site [Fish World](https://fish-world.netlify.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
