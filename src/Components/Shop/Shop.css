@@ -9,6 +9,36 @@
     gap: 10px;
 }
 
+.cart-container {
+    background-color: lightgrey;
+}
+
+.cart-container img {
+    width: 80px;
+    height: 80px;
+}
+
+.cart-container h2 {
+    text-align: center;
+}
+
+.btn-suggest,
+.btn-remove {
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    border: 2px solid darkblue;
+    margin: 10px;
+    color: darkblue;
+    border-radius: 10px;
+}
+
+.btn-suggest:hover,
+.btn-remove:hover {
+    color: white;
+    background-color: darkblue;
+}
+
 @media screen and (max-width: 500px) {
     .fishes-container {
         grid-template-columns: repeat(1, 1fr);

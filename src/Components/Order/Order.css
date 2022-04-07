@@ -1,0 +1,15 @@
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    margin: 4px 6px;
+    border-radius: 10px;
+}
+
+.btn-close {
+    color: darkblue;
+    border: none;
+    align-items: flex-end;
+}

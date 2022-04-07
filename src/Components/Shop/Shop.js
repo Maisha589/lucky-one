@@ -13,8 +13,11 @@ const Shop = () => {
         const handleAddToCart = (fish) => {
             console.log(fish);
             const newCart = [...cart,fish];
-            setCart(newCart);
+            if(newCart.length <= 4 ){
+                setCart(newCart);
+            }
         }
+
 
         useEffect(() => {
             fetch("data.json")
@@ -35,13 +38,15 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h3>Order Details</h3>
+                <h2><u>Order Details</u></h2>
                 {
                     cart.map(fish => <Order
                         key={fish.id}
                         fish={fish}
                     ></Order>)
                 }
+                <button className='btn-suggest'><b>Suggest me</b></button><br />
+                <button className='btn-remove'><b>Choose again</b></button>
             </div>
         </div>
     );
