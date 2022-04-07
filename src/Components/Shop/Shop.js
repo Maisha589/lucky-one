@@ -16,7 +16,6 @@ const Shop = () => {
             if(newCart.length <= 4 ){
                 setCart(newCart);
             }
-            // console.log(newCart);
         }
 
         useEffect(() => {
@@ -45,7 +44,7 @@ const Shop = () => {
                         fish={fish}
                     ></Order>)
                 }
-                <SuggestedOrder></SuggestedOrder>
+                <SuggestedOrder key={cart.id} cart={cart} setCart={setCart}></SuggestedOrder>
             </div>
             
 
