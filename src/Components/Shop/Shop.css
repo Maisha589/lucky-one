@@ -39,8 +39,19 @@
     background-color: darkblue;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     .fishes-container {
         grid-template-columns: repeat(1, 1fr);
+        width: 300px;
     }
+
+    .shop-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .cart-container {
+        width: 100%;
+    }
+
 }

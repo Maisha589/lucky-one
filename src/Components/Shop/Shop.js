@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import Fish from '../Fish/Fish';
 import Order from '../Order/Order';
+import SuggestedOrder from '../SuggestOrder/SuggestedOrder';
 import "./Shop.css"
 import "./Shop.css"
 
@@ -11,13 +12,12 @@ const Shop = () => {
         const [cart, setCart] = useState([]);
 
         const handleAddToCart = (fish) => {
-            console.log(fish);
             const newCart = [...cart,fish];
             if(newCart.length <= 4 ){
                 setCart(newCart);
             }
+            // console.log(newCart);
         }
-
 
         useEffect(() => {
             fetch("data.json")
@@ -45,9 +45,10 @@ const Shop = () => {
                         fish={fish}
                     ></Order>)
                 }
-                <button className='btn-suggest'><b>Suggest me</b></button><br />
-                <button className='btn-remove'><b>Choose again</b></button>
+                <SuggestedOrder></SuggestedOrder>
             </div>
+            
+
         </div>
     );
 };

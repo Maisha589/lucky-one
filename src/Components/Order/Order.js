@@ -4,16 +4,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClose} from '@fortawesome/free-solid-svg-icons';
 
 const Order = (props) => {
+    // console.log(props);
     const {img, name} = props.fish;
     return (
-        <div className='cart'>
-            <img src={img} alt="" />
-            <h3>{name}</h3>
-            <button className='btn-close'>
-            <FontAwesomeIcon icon={faClose}></FontAwesomeIcon>
-            </button>
-        </div>
-    );
+            <div className='cart'>
+                <img src={img} alt="" />
+                <h3>{name}</h3>
+                 <button className='btn-close'>
+                <FontAwesomeIcon icon={faClose}></FontAwesomeIcon>
+                </button>
+               
+            </div>
+    );       
 };
 
 export default Order;
